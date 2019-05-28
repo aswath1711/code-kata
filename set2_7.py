@@ -1,12 +1,12 @@
-n = int(input())
+num = int(input())
 s = 0
-temp = n
-while temp > 0:
-   d = temp % 10
+t = num
+while t > 0:
+   d = t % 10
    s += d ** 3
-   temp //= 10
+   t //= 10
 
-if n == s:
+if num == s:
    print("yes")
 else:
    print("no")
