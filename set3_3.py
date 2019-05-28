@@ -1,4 +1,4 @@
 n=int(input())
 l=list(map(int,input().split()))
-l.sorted()
+l.sort()
 print(l[0])
