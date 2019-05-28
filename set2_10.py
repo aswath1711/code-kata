@@ -1,11 +1,6 @@
-l=[]
-i=int(input())
-n=1
-k=5
-if i==0:
-    print("0"*5,end="")
-while(len(l)<k):
-    if (n%i)==0:
-        l.append(n)
-    n+=1
-print(*l)
+num=int(input())
+b=1
+c=[]
+for i in range(1,6):
+ b=i*num
+ print(b,end="")
