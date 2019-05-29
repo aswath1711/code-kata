@@ -1,2 +1,2 @@
 fir,sec=input().split()
-print(fir,sec)
+print(fir+sec)
