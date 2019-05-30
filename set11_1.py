@@ -1,5 +1,4 @@
 n,k=(input().split())
-m=n[::-1]
-#print(m)
-for i in range(int(k)):
-    print(m[i],end="")
+x=(n[:-(int(k))-1:-1])
+m=x[::-1]
+print(m)
